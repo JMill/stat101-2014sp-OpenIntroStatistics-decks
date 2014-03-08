@@ -1,0 +1,47 @@
+# Latex files
+ 
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.tui
+*.top
+*.tmp
+*.tex~
+*.mp
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+
+
+# bibtex
+
+*.blg
+*.bcf
+
+ 
+# Mac IDE files
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+ 
+# Mac finder files and hidden folders
+.DS_Store
+main.fls
+main.fdb_latexmk
