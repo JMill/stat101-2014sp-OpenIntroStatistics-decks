@@ -32,6 +32,14 @@
 *.blg
 *.bcf
 
+
+# pdflatexmk
+
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+
  
 # Mac IDE files
 *.swp
@@ -43,5 +51,3 @@ Backup[ ]of[ ]*.numbers/
  
 # Mac finder files and hidden folders
 .DS_Store
-main.fls
-main.fdb_latexmk
