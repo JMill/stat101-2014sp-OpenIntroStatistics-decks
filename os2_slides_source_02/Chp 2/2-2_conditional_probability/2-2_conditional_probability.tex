@@ -392,59 +392,6 @@ Generically, if $P(A|B) = P(A)$ then the events $A$ and $B$ are said to be indep
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Bayes' Theorem}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Bayes' Theorem}
-
-\begin{itemize}
-
-\item The conditional probability formula we have seen so far is a special case of the Bayes' Theorem, which is applicable even when events have more than just two outcomes.
-
-\pause 
-
-\item \hl{Bayes' Theorem:}
-\formula{
-\[ P(outcome~A~of~variable~1~|~outcome~B~of~variable~2) \]
-\[ = \frac{P(B|A_1)P(A_1)}{P(B|A_1)P(A_1) + P(B|A_2)P(A_2) + \cdots + P(B|A_k)P(A_k)} \]
-}
-where $A_1$, $A_2$, $\cdots$, $A_k$ represent all other possible outcomes of variable 1.
-
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Application activity: Inverting probabilities}
-
-\app{{\footnotesize A common epidemiological model for the spread of diseases is the SIR model, where the population is partitioned into three groups: Susceptible, Infected, and Recovered. This is a reasonable model for diseases like chickenpox where a single infection usually provides immunity to subsequent infections. Sometimes these diseases can also be difficult to detect. \vspace{2mm} \\
-Imagine a population in the midst of an epidemic where 60\% of the population is considered susceptible, 10\% is infected, and 30\% is recovered. The only test for the disease is accurate 95\% of the time for susceptible individuals, 99\% for infected individuals, but 65\% for recovered individuals. (Note: In this case accurate means returning a negative result for susceptible and recovered individuals and a positive result for infected individuals). \vspace{2mm} \\
-Draw a probability tree to reflect the information given above. If the individual has tested positive, what is the probability that they are actually infected?
-}}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Application activity: Inverting probabilities (cont.)}
-
-\vspace{-0.5cm}
-
-\includegraphics[width=\textwidth]{2-2_conditional_probability/figures/sir_tree/sir_tree} 
-
-\pause
-
-\[ P(inf | +) = \frac{P(inf~and~+)}{P(+)} = \frac{0.099}{0.03 + 0.099 + 0.105} \approx 0.423 \]
-
-
-\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
